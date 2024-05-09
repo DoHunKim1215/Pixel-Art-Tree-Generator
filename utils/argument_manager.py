@@ -14,7 +14,6 @@ class ArgumentManager:
         parser: argparse.ArgumentParser = argparse.ArgumentParser()
 
         parser.add_argument('--data_dir', type=str, default='dataset\\pixel_art_tree\\train')
-        parser.add_argument('--label_path', type=str, default='dataset\\labels.csv')
         parser.add_argument('--model_out_dir', type=str, default='results\\weights')
         ArgumentManager.make_dir('results\\weights')
         parser.add_argument('--fig_out_dir', type=str, default='results\\figures')
