@@ -1,12 +1,8 @@
 # Pixel Art Tree Generator
 
----
-
 This is my personal toy project: Pixel Art Tree Generator based on WGAN-GP implemented by PyTorch.
 
 ## Installation
-
----
 
 This project is implemented on [Pipenv](https://pipenv.pypa.io/en/latest/) environment. Please refer to Pipfile for information on the package needed.
 
@@ -16,8 +12,6 @@ pipenv install
 ```
 
 ## Run
-
----
 
 Pretrained weights is provided at "result/best.pkl".
 
@@ -29,15 +23,11 @@ python3 app.py --model_path <path/to/checkpoint> --image_out_dir <path/to/image>
 
 ## Train
 
----
-
 ```shell
 python3 train.py --data_dir <path/to/dataset> --model_out_dir <path/to/checkpoint> --fig_out_dir <path/to/loss_plot>
 ```
 
 ## Training Result
-
----
 
 * Epoch 1
 
@@ -53,13 +43,9 @@ python3 train.py --data_dir <path/to/dataset> --model_out_dir <path/to/checkpoin
 
 ## Dataset
 
----
-
 * [Pixel Art Tree (Kaggle)](https://www.kaggle.com/datasets/juansblanco/pixel-art-trees)
 
 ## Reference
-
----
 
 * [Ian J. Goodfellow et al. "Generative Adversarial Networks" (2014)](https://arxiv.org/abs/1406.2661)
 * [Mehdi Mirza et al. "Conditional Generative Adversarial Nets" (2014)](https://arxiv.org/abs/1411.1784)
