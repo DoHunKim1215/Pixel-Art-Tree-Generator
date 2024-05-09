@@ -17,6 +17,8 @@ pipenv install
 
 ## Run
 
+---
+
 Pretrained weights is provided at "result/best.pkl".
 
 ```shell
@@ -26,6 +28,8 @@ python3 app.py --model_path <path/to/checkpoint> --image_out_dir <path/to/image>
 ![figures/gui_ex.png](figures/gui_ex.png)
 
 ## Train
+
+---
 
 ```shell
 python3 train.py --data_dir <path/to/dataset> --model_out_dir <path/to/checkpoint> --fig_out_dir <path/to/loss_plot>
