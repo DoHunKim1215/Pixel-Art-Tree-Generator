@@ -23,11 +23,29 @@ Pretrained weights is provided at "result/best.pkl".
 python3 app.py --model_path <path/to/checkpoint> --image_out_dir <path/to/image>
 ```
 
+![figures/gui_ex.png](figures/gui_ex.png)
+
 ## Train
 
 ```shell
 python3 train.py --data_dir <path/to/dataset> --model_out_dir <path/to/checkpoint> --fig_out_dir <path/to/loss_plot>
 ```
+
+## Training Result
+
+---
+
+* Epoch 1
+
+![figures/fig_1.png](figures/fig_1.png)
+
+* Epoch 10
+
+![figures/fig_1.png](figures/fig_10.png)
+
+* Epoch 210
+
+![figures/fig_1.png](figures/fig_210.png)
 
 ## Dataset
 
