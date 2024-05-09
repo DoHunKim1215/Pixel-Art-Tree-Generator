@@ -2,7 +2,7 @@
 
 ---
 
-This is the toy project: Pixel Art Tree Generator based on WGAN-GP implemented by PyTorch.
+This is my personal toy project: Pixel Art Tree Generator based on WGAN-GP implemented by PyTorch.
 
 ## Installation
 
