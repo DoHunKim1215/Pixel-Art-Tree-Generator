@@ -1,10 +1,10 @@
 # Pixel Art Tree Generator
 
-This is my personal toy project: Pixel Art Tree Generator based on WGAN-GP implemented by PyTorch.
+This is my personal toy project: Pixel Art Tree Generator PyTorch implementation based on WGAN-GP.
 
 ## Installation
 
-This project is implemented on [Pipenv](https://pipenv.pypa.io/en/latest/) environment. Please refer to Pipfile for information on the package needed.
+This project is implemented on [Pipenv](https://pipenv.pypa.io/en/latest/) environment. You can refer to Pipfile for information on the package needed.
 
 ```shell
 git clone https://github.com/DoHunKim1215/Pixel-Art-Tree-Generator.git
